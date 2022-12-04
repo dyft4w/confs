@@ -12,6 +12,7 @@ call plug#end()
 set termguicolors
 luafile ~/.config/nvim/lua/aaa.lua
 luafile ~/.config/nvim/lua/bbb.lua
+luafile ~/.config/nvim/lua/amcli.lua
 let g:vimtex_view_method = 'zathura'
 let g:vimtex_compiler_method='latexmk'
 syntax enable
@@ -90,6 +91,12 @@ nmap <leader>rn <Plug>(coc-rename)
 xmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
 nmap <C-n> :NERDTreeToggle<CR>
+nmap <leader>klt :<C-u>AmcliLatex<CR>
+nmap <leader>kll :<C-u>AmcliLatexLine<CR>
+nmap <leader>klb :<C-u>AmcliBlock<CR>
+nmap <leader>kms :<C-u>AmcliSimp<CR>
+vmap <leader>kme :<C-u>AmcliEval<CR>
+nmap <leader>kme :v%<C-u>AmcliEval<CR>
 augroup mygroup
   autocmd!
   " Setup formatexpr specified filetype(s).
@@ -175,3 +182,4 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+" let mapleader = "\\"
