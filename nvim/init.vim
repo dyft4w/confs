@@ -97,6 +97,12 @@ nmap <leader>klb :<C-u>AmcliBlock<CR>
 nmap <leader>kms :<C-u>AmcliSimp<CR>
 vmap <leader>kme :<C-u>AmcliEval<CR>
 nmap <leader>kme :v%<C-u>AmcliEval<CR>
+nmap <leader>qn :<C-u>tabnew<cr>
+nmap <leader>q<leader> :<C-u>tabnext<cr>
+nmap <leader>qm :<C-u>tabmove<cr>
+nmap <leader>qc :<C-u>tabclose<cr>
+nmap <leader>qo :<C-u>tabonly<cr>
+nmap <leader>qp :<C-u>tabprevious<cr>
 augroup mygroup
   autocmd!
   " Setup formatexpr specified filetype(s).
