@@ -61,4 +61,5 @@ vim.cmd[[
 :command AmcliLatexBlock lua Amcli('\\[%s\\]', 'latex')
 :command AmcliSimp lua Amcli('%s', 'simp')
 :command AmcliEval lua Amcli('%s', 'eval')
+:command AmcliFsimp lua Amcli('%s','fsimp')
 ]]
