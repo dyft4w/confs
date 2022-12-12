@@ -17,7 +17,7 @@ let g:vimtex_view_method = 'zathura'
 let g:vimtex_compiler_method='latexmk'
 syntax enable
 set encoding=utf-8
-colorscheme nightfox
+colorscheme carbonfox
 set background=dark
 " Some servers have issues with backup files, see #649.
 set nobackup
@@ -103,6 +103,7 @@ nmap <leader>qm :<C-u>tabmove<cr>
 nmap <leader>qc :<C-u>tabclose<cr>
 nmap <leader>qo :<C-u>tabonly<cr>
 nmap <leader>qp :<C-u>tabprevious<cr>
+command Editconf file ~/.config/nvim/init.vim
 augroup mygroup
   autocmd!
   " Setup formatexpr specified filetype(s).
