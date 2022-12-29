@@ -1,0 +1,4 @@
+#!/bin/sh
+/usr/bin/cpupower frequency-set -g powersave
+/usr/bin/cpupower idle-set -E
+python3 /etc/dnscrypt-proxy/generate-domains-blocklist.py -o /etc/dnscrypt-proxy/blocklist.txt
