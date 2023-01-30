@@ -1,0 +1,12 @@
+shell:
+  program: /usr/bin/tmux
+window:
+  opacity: 0.9
+  blur: 1
+font:
+  normal:
+    family: "RobotoMono Nerd Font"
+    style: "Medium"
+colors:
+  normal:
+    red: '0xe56262'
