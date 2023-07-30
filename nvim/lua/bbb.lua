@@ -1,3 +1,27 @@
+-- Feline
+-- https://github.com/EdenEast/nightfox.nvim/blob/main/mics/feline.lua
+--
+-- This file is a complete example of creating the feline configuration shown in the readme of
+-- nightfox. This configuration generates its own highlight groups from the currently applied
+-- colorscheme. These highlight groups are regenreated on colorscheme changes.
+--
+-- Required plugins:
+--    - `feline-nvim/feline.nvim`
+--    - `kyazdani42/nvim-web-devicons`
+--
+-- This file is required to be in your `lua` folder of your config.  Your colorscheme should also
+-- be applied before this file is sourced. This file cannot be located `lua/feline.lua` as this
+-- would clash with the actual plugin require path.
+--
+-- # Example:
+--
+-- ```lua
+-- vim.cmd("colorscheme nightfox")
+-- require('user.ui.feline')
+-- ```
+--
+-- This assumes that this file is located at `lua/user/ui/feline.lua`
+
 local fmt = string.format
 
 ----------------------------------------------------------------------------------------------------
@@ -161,7 +185,7 @@ local vi = {
     i = "INSERT",
     v = "VISUAL",
     V = "V-LINE",
-    [""] = "V-BLOCK",
+    [""] = "V-BLOCK",
     c = "COMMAND",
     cv = "COMMAND",
     ce = "COMMAND",
@@ -169,7 +193,7 @@ local vi = {
     Rv = "REPLACE",
     s = "SELECT",
     S = "SELECT",
-    [""] = "SELECT",
+    [""] = "SELECT",
     t = "TERMINAL",
   },
 
@@ -180,14 +204,14 @@ local vi = {
     i = "UserSLStatus",
     v = "UserRvMagenta",
     V = "UserRvMagenta",
-    [""] = "UserRvMagenta",
+    [""] = "UserRvMagenta",
     R = "UserRvRed",
     Rv = "UserRvRed",
     r = "UserRvBlue",
     rm = "UserRvBlue",
     s = "UserRvMagenta",
     S = "UserRvMagenta",
-    [""] = "FelnMagenta",
+    [""] = "FelnMagenta",
     c = "UserRvYellow",
     ["!"] = "UserRvBlue",
     t = "UserRvBlue",
@@ -200,14 +224,14 @@ local vi = {
     i = "UserSLStatusBg",
     v = "UserMagenta",
     V = "UserMagenta",
-    [""] = "UserMagenta",
+    [""] = "UserMagenta",
     R = "UserRed",
     Rv = "UserRed",
     r = "UserBlue",
     rm = "UserBlue",
     s = "UserMagenta",
     S = "UserMagenta",
-    [""] = "FelnMagenta",
+    [""] = "FelnMagenta",
     c = "UserYellow",
     ["!"] = "UserBlue",
     t = "UserBlue",

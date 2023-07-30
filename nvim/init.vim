@@ -1,24 +1,25 @@
 call plug#begin()
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'ryanoasis/vim-devicons'
+Plug 'kyazdani42/nvim-web-devicons'
 Plug 'preservim/nerdtree'
 Plug 'lervag/vimtex'
 Plug 'EdenEast/nightfox.nvim'
-Plug 'feline-nvim/feline.nvim'
+Plug 'freddiehaddad/feline.nvim'
 Plug 'nanozuki/tabby.nvim'
-Plug 'nvim-tree/nvim-web-devicons'
 call plug#end()
 " May need for vim (not neovim) since coc.nvim calculate byte offset by count
 " utf-8 byte sequence.
 set termguicolors
 luafile ~/.config/nvim/lua/aaa.lua
-luafile ~/.config/nvim/lua/bbb.lua
+colorscheme carbonfox
+luafile ~/.config/nvim/lua/ccc.lua
 luafile ~/.config/nvim/lua/amcli.lua
 let g:vimtex_view_method = 'zathura'
 let g:vimtex_compiler_method='latexmk'
 syntax enable
-set encoding=utf-8
-colorscheme carbonfox
-set background=dark
+" set encoding=utf-8
+" set background=dark
 " Some servers have issues with backup files, see #649.
 set nobackup
 set nowritebackup
