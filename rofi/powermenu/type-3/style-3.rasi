@@ -27,7 +27,7 @@ configuration {
     element-padding:             55px 10px;
     element-radius:              20px;
     general-radius:              100%;
-    element-font:                "Noto Sans 48";
+    element-font:                "JetBrainsMono Nerd Font 48";
 }
 
 /*****----- Main Window -----*****/
