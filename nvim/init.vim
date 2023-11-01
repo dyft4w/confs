@@ -39,6 +39,37 @@ set signcolumn=yes
 " no select by `"suggest.noselect": true` in your configuration file.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 " other plugin before putting this into your config.
+
+
+
+
+" dvorak conf http://stackoverflow.com/questions/165231
+" Dvorak it!
+no d h
+no h j
+no t k
+no n l
+no s :
+no S :
+no j d
+no l n
+no L N
+" Added benefits
+no - $
+no _ ^
+no N <C-w><C-w>
+no T <C-w><C-r>
+no H 8<Down>
+no T 8<Up>
+no D <C-w><C-r>
+
+
+
+
+
+
+
+
 inoremap <silent><expr> <TAB>
       \ coc#pum#visible() ? coc#pum#next(1) :
       \ CheckBackspace() ? "\<Tab>" :
