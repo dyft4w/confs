@@ -1,0 +1,718 @@
+clear
+ls
+yooooooooo
+bass
+omn
+cat
+find
+find . | where type=image
+find . | where size>10mb
+ls 
+ls | where size>1KB
+ls | where size > 1KB
+find
+list 
+find / | where size > 10MB
+find /
+find / aoe
+find --help
+ls -lah
+ls -ra
+ls -la
+/bin/find /
+/usr/bin/find /
+glob /
+glob *.rs
+glob *.rs --depth 10
+glob *.rs --depth 113
+glob *.rs --depth 11314
+glob bin
+glob bin --depth 10
+glob *bin --depth 10
+glob *bin --depth 1
+glob *bin --depth 2
+glob **/*bin --depth 2
+glob **/*bin --depth 123
+clear
+sudo 
+clear
+echo $env
+echo $TERM
+echo $env.TERM
+clear
+cd Documents
+cd git
+ls
+cd maths-4eme/
+git add .
+git commit -m "abobus2"
+git push origin master
+ls
+cd ..
+tar -cvzf maths-4eme.tar.gz maths-4eme/
+cd maths-4eme/
+ls
+rm *.*
+ls
+git add .
+git commit -m "clean up"
+git push origin master
+clear
+ls
+echo $nu.config.path
+echo $nu.config
+echo $nu.config-path
+nvim ~/.config/nushell/config.nu
+yooooooooo
+epic gamig
+clear
+exit
+sudo emerge --ask --verbose app-shells/starship
+clear
+exit
+clear
+exit
+starship
+starship init
+starship init nu
+exit
+chsh
+ext
+exit
+nvim .bashrc
+starship init nu
+bash
+clear
+exit
+bash
+echo $env.SHELL
+chsh
+clear
+bash
+nvim .bashrc
+exit
+nvim .bashrc
+nu --help
+nu -r
+exit
+nu -l
+clear
+nu --help
+nvim .bashrc
+nvim .config/starship.toml
+echo $nu.env-path
+nvim .config/nushell/env.nu
+echo $nu.config-path
+nvim (echo $nu.config-path)
+clear
+exit
+clear
+nvim (echo $nu.env-path)
+exit
+nu
+nu -v
+let-env
+nvim .config/starship-workaround.nu
+starship init nu | save -f ~/.cache/starship-workaround.nu
+nvim .config/starship-workaround.nu
+starship init nu | save -f ~/.config/starship-workaround.nu
+nvim .config/starship-workaround.nu
+nvim ($nu.env-path)
+nvim ($nu.config-path)
+$env.STARSHIP_SHELL = "nu"
+nvim .config/starship-workaround.nu
+starship init nu | save -f ~/.config/starship-workaround.nu
+nvim .config/starship-workaround.nu
+exit
+nu
+exit
+nu
+nvim .config/starship-workaround.nu
+exit
+nu
+nvim .config/starship-workaround.nu
+exit
+nu
+starship -v
+starship --version
+sudo emerge --unselect starship
+sudo emerge --depclean starhsip
+sudo emerge --depclean starship
+curl -sS https://starship.rs/install.sh | sh
+starship init nu
+echo "mkdir ~/.cache/starship<\n>starship init nu | save -f ~/.cache/starship/init.nu" >> $nu.env-path
+cat $nu.env-path
+echo "mkdir ~/.cache/starship<\n>starship init nu | save -f ~/.cache/starship/init.nu" >> $nu.env-path
+echo "mkdir ~/.cache/starship<\n>starship init nu | save -f ~/.cache/starship/init.nu" | save $nu.env-path --append
+echo "use ~/.cache/starship/init.nu" | save $nu.env-path --append
+clear
+nvim $nu.config-path
+exit
+nu
+nvim $nu.env-path
+echo "use ~/.cache/starship/init.nu" | save $nu.config-path --append
+exit
+nu
+exi
+exit
+bash
+exit
+bash
+exit
+ls
+clear
+ls
+clear
+neofetch
+starship preset tokyo-night -o ~/.config/starship.toml
+nvim .config/starship.toml
+clear
+cd Document
+clear
+cd Documents
+cd git
+clear
+ls
+cd maths-4eme/
+ls
+cd 
+echo $env.hostname
+echo $env.HOME
+clear
+nvim .config/starship.toml
+clear
+nvim .config/starship.toml
+clear
+nvim .config/starship.toml
+mv .config/starship.toml .config/starship.toml.2
+nvim .config/starship.toml
+clear
+now this is epic
+cd Documents/git/maths-4eme/
+ls
+cd latex/
+ls
+cd ..
+ls
+cd confs/
+ls
+cd ..
+ls
+cd yt-play/
+ls
+cd ..
+ls
+cd pass/
+cd ..
+cd yt-play/
+clear
+ls
+nvim meson.build
+meson
+cd build
+ls
+./yt-play
+cd yt-play.p/
+ls
+cd ..
+ls
+nvim main.cpp
+cd ..
+ls
+cd touche-server/
+clear
+ls
+yoooooooo
+clear
+cat .ssh/authorized_keys
+ls
+cd
+cat .ssh/authorized_keys
+ls .ssh
+sudo rvim /etc/ssh/sshd_config.d/9999999gentoo.conf
+sudo rvim /etc/ssh/sshd_config.d/9999999gentoo-pam.conf
+sudo rc-service restart sshd
+sudo rc-service sshd restart
+now this is epic
+clear
+date
+clear
+date humanize
+date now 
+date now humanize
+clear
+exit
+zerotier-cli join 3efa5cb78afd36a8
+sudo zerotier-cli join 3efa5cb78afd36a8
+sudo rc-update add zerotier
+sudo rc-service zerotier start
+sudo zerotier-cli join 3efa5cb78afd36a8
+epic
+clear
+cat .config/alacritty/alacritty.yml
+trum new -As main
+wow
+clear
+tmux new -As main
+clear
+neofetch
+clear
+sudo emerge --ask --verbose cargo
+sudo emerge --ask --verbose rustup
+w3m
+w3mmee 
+sudo rvim /etc/portage/package.accept_keywords/rustup
+nvim $nu.config-path
+np
+exit
+nu
+clear
+tmux new -As main
+clear
+nvim $nu.config-path
+nvim $nu.env-path
+nvim $nu.config-path
+sudo emerge --ask --verbose www-client/surf net-misc/ufw www-client/ungoogled-chromium
+sudo emerge --ask --verbose www-client/surf ufw www-client/ungoogled-chromium
+sudo rvim /etc/portage/package.use/ungoogled-chromium
+etc-update
+sudo etc-update
+sudo emerge --ask --verbose www-client/surf ufw www-client/ungoogled-chromium
+sudo rvim /etc/portage/make.conf
+sudo emerge --ask --verbose www-client/surf ufw www-client/ungoogled-chromium
+sudo rvim /etc/portage/make.conf
+sudo rvim /etc/portage/package.use/ungoogled-chromium
+sudo emerge --ask --verbose www-client/surf ufw www-client/ungoogled-chromium
+sudo rvim /etc/portage/make.conf
+nvim noforget.txt
+cat noforget.txt
+sudo emerge --ask --verbose www-client/surf ufw www-client/ungoogled-chromium
+tmux new -As main
+sudo emerge --ask --verbose www-client/surf www-client/ungoogled-chromium
+vencorddesxtop
+vencorddesktop
+nohup /opt/Vesktop/Vesktop/vencorddesktop&
+nohup /opt/Vesktop/Vesktop/vencorddesktop &
+nohup /opt/Vesktop/Vesktop/vencorddesktop&
+nohup "/opt/Vesktop/Vesktop/vencorddesktop"&
+nohup& /opt/Vesktop/Vesktop/vencorddesktop
+nohup /opt/Vesktop/Vesktop/vencorddesktop &
+sudo emerge --ask --verbose pueue
+cat /opt/Vesktop/vencorddesktop.desktop
+/opt/Vesktop/Vesktop/vencorddesktop --disable-gpu-driver-bug-workarounds %U
+/opt/Vesktop/Vesktop/vencorddesktop 
+/opt/Vesktop/Vesktop/vencorddesktop
+nohup& /opt/Vesktop/Vesktop/vencorddesktop
+nohup /opt/Vesktop/Vesktop/vencorddesktop
+ls
+cat nohup.out
+source 
+source /etc/profile
+source --help 
+echo $env.DISPLAY
+eselect env
+eselect env DISPLAY ":0"
+eselect env helo
+eselect env help
+eselect env usage
+cd /etc/env.d
+ls
+sudo rvim 52-X
+cat /etc/env.d/00glibc
+sudo rvim 52-X
+eselect env update
+clear
+sudo clear!!
+eselect env update
+sudo eselect env update
+clear
+/opt/Vesktop/Vesktop/vencorddesktop
+nohup /opt/Vesktop/Vesktop/vencorddesktop
+gd
+cd
+nohup /opt/Vesktop/Vesktop/vencorddesktop
+echo $env.DISPLAY
+nohup /opt/Vesktop/Vesktop/vencorddesktop
+/opt/Vesktop/Vesktop/vencorddesktop
+xdg-open /usr/share/applications/vencorddesktop.desktop
+xdg-open /usr/share/applications/Alacritty.desktop
+xdg-open /opt/Vesktop/vencorddesktop.desktop
+gtk-launch
+gtk-launch /opt/Vesktop/vencorddesktop.deskto
+gtk-launch /opt/Vesktop/vencorddesktop.desktop
+gtk-launch /usr/share/applications/vencorddesktop.desktop
+gtk-launch vencorddesktop
+ls 
+ls -lah /usr/share/applications/
+ls -la /usr/share/applications/
+rm /usr/share/applications/vencorddesktop.desktop
+sudo rm /usr/share/applications/vencorddesktop.desktop
+sudo ln /opt/Vesktop/vencorddesktop.desktop /usr/share/applications/
+ls -la /usr/share/applications/
+cd /usr/src/linux
+sudo make menuconfig
+sudo make && sudo make modules_install
+sudo make; sudo make modules_install
+clear
+sudo emerge --ask --verbose breeze
+sudo make -j16 -l16; sudo make modules_install
+sudo make install
+cd ..
+ls
+dracut --kver 6.1.57-gentoo --force
+sudo dracut --kver 6.1.57-gentoo --force
+ls
+sudo ./60-symlink-for-refind 6.1.57-gentoo
+clear
+sudo reboot
+sudo emerge --ask --verbose qt5ct
+echo $env.LC_MESSAGES
+echo $env.LC_MONETARY
+echo $env.LC_MEASUREMENT
+exit
+bash
+clear
+starship init nu
+overlay use (starship init nu)
+echo (starship init nu)
+clear
+ls
+cd .cache
+ls
+cd starship/
+ls
+overlay use init.nu
+clear
+cd 
+cd .config/nushell/
+ls
+cd
+cd .cache
+ls
+cd ..
+ls
+cd .config
+ls
+mv starship.toml starship.toml.3
+mv starship.toml.2 starship.toml
+clear
+yooooooooooo
+exit
+mv starship.toml starship.toml.2
+cd .config
+mv starship.toml starship.toml.2
+mv starship.toml.3 starship.toml
+clear
+starship preset pastel-powerline -o ~/.config/starship.toml
+yo
+clear
+nvim .config/starship.toml
+nvim starship.toml
+clear
+nvim aaa
+sudo rvim /etc/env.d/51dconf
+sudo rvim /etc/env.d/52-X
+sudo eselect env update
+QT_QPA_PLATFORMTHEME="qt5ct" chromium
+sudo emerge --ask --verbose lightly
+cd
+cd manualinstall/
+git clone --single-branch --depth=1 https://github.com/Luwx/Lightly.git
+cd Lightly && mkdir build && cd build
+cd Lightly/
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_LIBDIR=lib -DBUILD_TESTING=OFF ..
+make
+make -j16 -l16
+sudo make install
+clear
+loginctl logout
+loginctl CMakeCache.txt
+loginctl
+loginctl --help
+lxappearance 
+sudo emerge --ask --verbose ufw compiz
+sudo emerge --ask --verbose ufw picom
+xprop WM_CLASS
+sudo ufw enable
+sudo ufw default
+sudo ufw default block
+sudo ufw default deny
+sudo ufw default drop
+sudo ufw allow outgoing
+sudo ufw default deny
+cd /usr/src/linux
+sudo make menuconfig
+sudo make -j16 -l16; sudo make modules_install
+sudo make install
+cd ..
+sudo dracut --kver 6.1.57-gentoo --force
+sudo ./60-symlink-for-refind 6.1.57-gentoo
+clear
+lsmoi
+lsmod
+rc-update add ufw default
+sudo rc-update add ufw default
+sudo rc-service ufw start
+ufw allow proto udp from 192.168.0.0/24 to any port 1714:1764 
+sudo ufw allow proto udp from 192.168.0.0/24 to any port 1714:1764 
+sudo ufw allow proto tcp from 192.168.0.0/24 to any port 1714:1764
+sudo emerge --ask --verbose easy-effects
+sudo emerge --ask --verbose easyeffects
+sudo emerge --ask --verbose --quiet @world
+sudo emerge --ask --verbose --quiet -deep --newuse @world
+sudo emerge --ask --quiet -deep --newuse @world
+sudo emerge --ask --quiet -deep @world
+sudo rvim /etc/portage/make.conf
+sudo rvim /etc/portage/package.use/vlc
+sudo emerge --ask --quiet -deep --newuse @world
+eselect news list
+sudo emaint --auto sync
+sudo emerge -avuDN @world
+sudo emerge --unselect qt5ct 
+sudo emerge --deselect systemd-utils
+sudo emerge --deselect qt5ct
+sudo emerge --unmerge sys-apps/systemd-utils
+emerge --ask --depclean --verbose sys-apps/systemd-utils 
+sudo emerge --ask --depclean --verbose sys-apps/systemd-utils 
+sudo emerge --unmerge sys-apps/systemd-utils
+clear
+sudo emerge --depclean
+sudo emerge -avuDN @world
+sudo emerge --ask --oneshot sys-fs/eudev
+sudo emerge --ask eudev
+sudo emerge --ask udev
+sudo emerge --ask systemd-utils
+sudo emerge --ask --deselect qt5ct
+sudo emerge --ask udev
+sudo emerge --ask qt5ct
+sudo emerge --ask --deselect x11-misc/qt5ct
+sudo emerge --ask --depclean x11-misc/qt5ct
+layman
+cd
+sudo emerge --ask --verbose layman
+sudo eselect repository
+sudo eselect repository add guru
+exit
+fish
+clear
+sudo emerge --ask --verbose pueue
+sudo emaint --auto sync
+sudo emerge --ask --verbose pueue
+sudo rvim /etc/portage/package.accept_keywords/pueue
+sudo emerge --ask --verbose pueue
+emerge --ask --verbose ungoogled-chromium
+clear
+sudo rvim /etc/portage/make.conf
+clear
+sudo emerge -avuDN @world
+sudo emerge -avuqDN @world
+aoeushaoeunst
+sudo emerge
+btop
+sudo rvim /etc/portage/make.conf
+surf
+surf 
+neofetch
+uptime
+clear
+cd
+cd Documents/git/maths-4eme/
+ls
+git add .
+git commit -m "abovus"
+git push origin master
+sudo emerge -avuDN --quiet @world
+sudo emerge -avuDN --quiet hyprland
+sudo rvim /etc/portage/package.accept_keywords/hyprland
+emerge -D
+exit
+fish
+clear
+sudo emerge -avq hyprland
+sudo rvim /etc/portage/package.accept_keywords/hyprland
+sudo emerge -avq hyprland
+sudo rvim /etc/portage/package.accept_keywords/hyprland
+sudo emerge -avq hyprland
+sudo rvim /etc/portage/package.accept_keywords/hyprland
+which chromium
+ldd /usr/bin/chromium
+sudo emerge -avq hyprland
+nvim /usr/lib64/chromium-browser/chromium-launcher.sh
+ldd /usr/lib64/chromium-browser/chrome
+sudo emerge -avq kate
+sudo emerge -avq wayland
+sudo emerge -avq wlroots
+groups
+sudo usermod -aG input dyft4w
+clear
+exit
+sudo emerge -avq dev-libs/wayland
+exit
+cat hyprlandCrashReport21229.txt
+exit
+fish
+exit
+sudo emerge -avqDN mesa
+sudo emerge -avuDN mesa
+sudo emerge -avD --changed-use mesa
+sway
+exit
+sway
+sudo sway
+sway
+dbus-run-session sway
+sudo rc-update add elogind boot
+sudo rc-update add dbus default
+sudo rc-service elogind start
+sudo rc-service dbus start
+sudo rc-service elogind restart
+exit
+sudo rvim /etc/sddm.conf
+clear
+sudo emerge --ask gui-libs/xdg-desktop-portal-hyprland
+sudo rc-update add virtlogd 
+sudo rc-update add libvirtd
+sudo rc-update add ebtables 
+sudo rc-update add virtlockd 
+sudo rc-service virtlockd start
+sudo rc-service virtlogd start
+sudo rc-service ebtables start
+sudo rc-service libvirtd start
+sudo rc-update remove ebtables 
+sudo rc-update delete ebtables 
+sudo rc-update add virtnetworkd 
+cd /usr/src/linux
+make menuconfig
+sudo make menuconfig
+sudo make; sudo make modules_install
+sudo make -j16 -l16; sudo make modules_install
+sudo make install
+cd ..
+ls
+sudo dracut --kver 6.1.57-gentoo --force
+sudo ./60-symlink-for-refind 6.1.57-gentoo
+clear
+sudo modprobe kvm
+lsmod
+nvim .config/hypr/hyprland.conf
+sudo reboot
+sudo rvim /etc/portage/package.use/virt-manager
+sudo emerge --ask --verbose iptables-nft
+sudo emerge --ask --verbose iptables
+sudo rvim /etc/portage/package.use/virt-manager
+sudo emerge --ask --verbose iptables
+sudo emerge --ask --verbose --changed-use iptables
+sudo rc-update add iptables
+sudo rc-service iptables start
+sudo rc-service iptables save
+sudo rc-service iptables start
+clear
+sudo rc-service libvirtd restart
+sudo emerge --ask --verbose dnsmasq
+sudo rc-service dnsmasq start
+sudo rc-update add dnsmasq
+sudo rc-update add ebtables
+sudo rc-service ebtables start
+sudo rc-service ebtables save
+sudo rc-service ebtables start
+clear
+<\n><\n>I am trying to enable the default libvirt network to be able to create a vm. However when i try to start the default network, this occurs:<\n><\n>sudo virsh -c qemu:///system net-start default
+sudo virsh -c qemu:///system net-start default
+sudo emerge --ask --verbose --deselect ebtables
+sudo emerge --ask --verbose --depclean ebtables
+sudo emerge --ask --verbose --depclean iptables
+cd /usr/src/linux
+sudo make menuconfig
+sudo make; sudo make modules_install; sudo make install
+sudo make -j16 -l16; sudo make modules_install; sudo make install
+cd..
+cd ..
+ls
+sudo dracut --kver 6.1.57-gentoo --force
+sudo ./60-symlink-for-refind 6.1.57-gentoo
+lsblk
+clear
+cd Downloads/
+ls
+mkdir atlas
+cp `AME Wizard Beta.zip` atlas/
+cp AtlasPlaybook_v0.3.1.zip atlas/
+sudo emerge --ask genisoimage
+sudo emerge --ask genimage
+sudo emerge --ask genisoimage
+sudo emerge --ask genimage
+sudo rvim /etc/portage/package.accept_keywords/genimage
+sudo emerge --ask genimage
+genisoimage
+genimage 
+genimage --help
+genimage --genisoimage -o atlas.iso atlas/
+sudo --depclean genimage
+sudo emerge --depclean genimage
+sudo emerge --ask mkisofs/genisoimage
+sudo emerge --ask mkisofs
+cd atlas/
+unzip AtlasPlaybook_v0.3.1.zip
+unzip `AME Wizard Beta.zip`
+ls
+rm *.*
+clear
+ls
+cp `../AME Wizard Beta.zip` .
+cp ../AtlasPlaybook_v0.3.1.zip .
+unzip *
+unzip AtlasPlaybook_v0.3.1.zip
+ls
+unzip `AME Wizard Beta.zip`
+ls
+rm `AME Wizard Beta.zip`
+rm AtlasPlaybook_v0.3.1.zip
+ls
+cd ..
+zip atlas.zip atlas/
+zip atlas
+zip --help
+tar -cvzf atlas.zip atlas/
+sudo emerge -va sys-fs/cryptsetup
+genisoimage
+sudo emerge -va genIsoImage
+mkisofs
+sudo mkisofs -o atlas.iso atlas/
+ls
+sudo reboot
+lsblk
+cd Downloads/
+mkisofs -o browser.iso thorium_mini_installer.exe
+ping 192.168.0.1
+sudo ufw disable
+sudo emerge -va wofi
+etc-update
+sudo etc-update
+sudo emerge -va wofi
+hyprctl monitors
+nvim .config/hypr/hyprland.conf
+btop
+sudo emerge -va eww
+sudo rvim /etc/portage/package.accept_keywords/hyprland
+sudo emerge -va eww
+rustup
+sudo emerge -va eww
+eselect rust list
+rustup 
+rustup toolchain
+rustup toolchain list
+rustup toolchain install nightly-x86_64-unknown-linux-gnu
+eselect rust list
+sudo emerge -va eww
+sudo rvim /etc/portage/package.accept_keywords/hyprland
+sudo emerge -va eww
+sudo rvim /etc/portage/make.conf
+sudo rvim /etc/portage/package.use/rust
+sudo emerge -va eww
+etc-update
+sudo etc-update
+cd Documents/git/confs
+ls
+cp ~/.config/hypr/ -r .
