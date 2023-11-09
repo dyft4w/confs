@@ -716,3 +716,95 @@ sudo etc-update
 cd Documents/git/confs
 ls
 cp ~/.config/hypr/ -r .
+nvim .config/hypr/hyprland.conf
+sudo emerge -va eww
+nautilus
+sudo emerge -va eww
+equery
+sudo -av app-portage/gentoolkit
+sudo emerge -av app-portage/gentoolkit
+equery eww
+equery list eww
+equery check eww
+sudo emerge -va eww
+sudo emerge -va gui-apps/eww-9999
+sudo emerge -va gui-apps/eww-9999::guru
+sudo emerge -va =gui-apps/eww-9999::guru
+sudo rvim /etc/portage/package.accept_keywords/hyprland
+sudo emerge -va =gui-apps/eww-9999::guru
+sudo rvim /etc/portage/package.accept_keywords/hyprland
+sudo emerge -va =gui-apps/eww-9999::guru
+sudo rvim /etc/portage/package.accept_keywords/hyprland
+sudo emerge -va =gui-apps/eww-9999::guru
+sudo rvim /etc/portage/package.accept_keywords/hyprland
+sudo emerge -va =gui-apps/eww-9999::guru
+sudo rvim /etc/portage/package.accept_keywords/hyprland
+sudo emerge -va =gui-apps/eww-9999::guru
+sudo rvim /etc/portage/package.accept_keywords/hyprland
+sudo emerge -va =gui-apps/eww-9999::guru
+sudo emerge -va =dev-lang/rust-1.73.0
+sudo rvim /etc/portage/package.accept_keywords/hyprland
+sudo rvim /etc/portage/package.use/rust
+sudo rm /etc/portage/package.use/rust
+sudo emerge -va =dev-lang/rust-1.73.0
+sudo emerge -va =gui-apps/eww-9999::guru
+sudo rvim /etc/portage/package.use/rust
+sudo emerge -va =gui-apps/eww-9999::guru
+sudo emerge -va =dev-lang/rust-1.73.0
+sudo emerge -va >=dev-lang/rust-1.73.0
+sudo rvim /etc/portage/package.use/rust
+sudo emerge -va >=dev-lang/rust-1.73.0[nightly]
+exit
+bash
+sudo rvim /etc/portage/make.conf
+sudo emerge -va >=dev-lang/rust-1.73.0[nightly]
+sudo emerge -va >=dev-lang/rust-1.73.0
+sudo rvim /etc/portage/package.use/rust
+sudo rvim /etc/portage/package.accept_keywords/hyprland
+./loginautostart.sh
+wow
+clear
+sudo emerge -va >=dev-lang/rust-1.73.0
+sudo rvim /etc/portage/make.conf
+sudo emerge -va >=dev-lang/rust-1.73.0
+sudo rvim /etc/portage/package.accept_keywords/hyprland
+sudo emerge -va >=dev-lang/rust-1.73.0
+sudo emerge -va dev-lang/rust
+sudo rvim /etc/portage/make.conf
+sudo emerge -va dev-lang/rust-nightly
+sudo emerge -va =dev-lang/rust-bin-9999
+cd manualinstall/
+git clone https://github.com/elkowar/eww
+cd eww/
+ls
+cargo build --release --no-default-features --features=wayland
+sudo emerge -va gtk-layer-shell
+cargo build --release --no-default-features --features=wayland
+cd build
+ls
+cd target/release/
+ls
+./eww daemon
+./eww open
+./eww daemon
+nvim .config/hypr/hyprland.conf
+cd
+nvim .config/hypr/hyprland.conf
+nvim .config/waybar/config
+nvim .config/waybar/style.css
+nvim .config/waybar/config
+cd manualinstall/eww/target/release/
+./eww open
+./eww open oa
+cat ~/.config/eww/
+sudo cp eww ~/.local/bin/
+~/.config/eww/bar/launch_bar
+eww open bar
+./eww open bar
+waybar
+sudo emerge -avqDN @world
+emaint --auto sync; 
+sudo emaint --auto sync; 
+eix-sync
+sudo emerge -avqDN @world
+sudo rvim /etc/portage/package.use/systemd-utils
