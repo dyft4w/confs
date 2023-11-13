@@ -7,7 +7,7 @@ shell:
     - main
 window:
   startup_mode: Maximized
-  #  opacity: 0.7
+  opacity: 0.7
   #blur: 1
 font:
   normal:

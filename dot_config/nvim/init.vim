@@ -8,17 +8,20 @@ Plug 'EdenEast/nightfox.nvim'
 Plug 'glepnir/galaxyline.nvim' , { 'branch': 'main' }
 "Plug 'freddiehaddad/feline.nvim'
 "Plug 'nanozuki/tabby.nvim'
+Plug 'xiyaowong/transparent.nvim'
 call plug#end()
 " May need for vim (not neovim) since coc.nvim calculate byte offset by count
 " utf-8 byte sequence.
 set termguicolors
 " luafile ~/.config/nvim/lua/aaa.lua
 colorscheme carbonfox
-" luafile ~/.config/nvim/lua/ccc.lua
-luafile ~/.config/nvim/lua/ddd.lua
+"luafile ~/.config/nvim/lua/ccc.lua
+"luafile ~/.config/nvim/lua/feline.conf.lua
+luafile ~/.config/nvim/lua/galaxyline.conf.lua
 luafile ~/.config/nvim/lua/amcli.lua
 let g:vimtex_view_method = 'zathura'
 let g:vimtex_compiler_method='latexmk'
+
 syntax enable
 " set encoding=utf-8
 " set background=dark

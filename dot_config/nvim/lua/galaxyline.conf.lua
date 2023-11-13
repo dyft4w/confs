@@ -75,7 +75,7 @@ gl.section.left[2] = {
     highlight = {colors.white, colors.bg_light},
     provider = function()
       local dirname = vim.fn.fnamemodify(vim.fn.getcwd(), ':t')
-      return ' ' .. dirname .. ' '
+      return ' ' .. dirname .. ' '
     end,
   }
 }
@@ -150,7 +150,9 @@ gl.section.left[9] = {
 
 gl.section.right[1] = {
   FileType = {
-    highlight = {colors.gray, colors.bg},
+    separator = ' ',
+    separator_highlight = {colors.black,colors.bg},
+    highlight = {colors.blue, colors.black},
     provider = function()
       local buf = require('galaxyline.provider_buffer')
       return string.lower(buf.get_buffer_filetype())
@@ -160,9 +162,10 @@ gl.section.right[1] = {
 
 gl.section.right[2] = {
   GitBranch = {
-    icon = ' ',
-    separator = '  ',
+    icon = ' ',
+    separator = ' ',
     condition = condition.check_git_workspace,
+    separator_highlight = {colors.bg, colors.black},
     highlight = {colors.teal, colors.bg},
     provider = 'GitBranch',
   }
@@ -181,11 +184,11 @@ gl.section.right[3] = {
       if current_line == 1 then
         return 'Top'
       elseif current_line == total_lines then
-        return 'Bot'
+        return 'Bot = ' .. total_lines .. ''
       end
 
       local percent, _ = math.modf((current_line / total_lines) * 100)
-      return '' .. percent .. '%'
+      return '' .. current_line .. ' / ' .. total_lines .. ' = ' .. percent .. '%'
     end,
   }
 }
@@ -208,4 +211,5 @@ gl.section.right[4] = {
     end,
   }
 }
+
 

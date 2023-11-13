@@ -808,3 +808,156 @@ sudo emaint --auto sync;
 eix-sync
 sudo emerge -avqDN @world
 sudo rvim /etc/portage/package.use/systemd-utils
+sudo emerge -avqDN @world
+waybar
+nvim .config/waybar/config
+nvim ~/.config/waybar/config
+waybra
+waybar
+nvim .config/hypr/hyprland.conf
+curl -sSL https://raw.githubusercontent.com/Duckonaut/hyprload/main/install.sh | bash
+hyprload
+sudo emerge -av cpio
+sudo emerge -av app-arch/cpio
+curl -sSL https://raw.githubusercontent.com/Duckonaut/hyprload/main/install.sh | bash
+g++ -v
+jq
+hyprland -v
+Hyprland -v
+Hyprland --version
+sudo emerge -av hyprload
+exit
+exit
+rm -r ~/.config/nushell ;ln -s dot_config/nushell ~/.config/
+clear
+ls
+rm -r ~/.config/nushell ;ln -s ./dot_config/nushell ~/.config/
+ls
+vim install.sh
+./install.sh
+fish
+clear
+ls
+clear
+cd ..
+ls
+cd ..
+ls
+cd test/
+ls
+rm *
+ls
+curl -sSL https://raw.githubusercontent.com/Duckonaut/hyprload/main/install.sh
+ls
+curl -soSL https://raw.githubusercontent.com/Duckonaut/hyprload/main/install.sh
+ls
+curl -soSL https://raw.githubusercontent.com/Duckonaut/hyprload/main/install.sh
+ls
+mv SL install.sh
+nvim install.sh
+sudo emerge -av =gui-wm/hyprland-9999
+sudo emerge -av gui-wm/hyprland
+xrandr
+echo $env.XDG_CURRENT_DESKTOP
+clear
+which hyprctl
+nvim install.sh
+./install.sh
+chmod +x install.sh
+./install.sh
+clear
+cd .local/share/hyprload/
+ls
+cd include/
+cd hyprland/
+ls
+make all
+emerge --ask gui-apps/hyprland-plugins
+sudo emerge --ask gui-apps/hyprland-plugins
+sudo rvim /etc/portage/package.accept_keywords/hyprland
+sudo emerge --ask gui-apps/hyprland-plugins
+ls
+sudo emerge -av wayland-protocols
+emerge -av gdb ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols cairo pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info cpio
+sudo emerge -av gdb ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols cairo pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info cpio
+sudo emerge -av gdb dev-util/ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols cairo pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info cpio
+sudo emerge -av gdb dev-util/ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols x11-libs/cairo pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info cpio
+sudo emerge -av gdb dev-util/ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols x11-libs/cairo x11-libs/pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info cpio
+sudo emerge -av gdb dev-util/ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols x11-libs/cairo x11-libs/pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info
+sudo emerge -av gdb dev-util/ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libXfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols x11-libs/cairo x11-libs/pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info
+sudo emerge -av gdb dev-util/ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libXfixes libX11 libXcomposite xorg-xinput libxrender pixman wayland-protocols x11-libs/cairo x11-libs/pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info
+sudo emerge -av gdb dev-util/ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libXfixes libX11 libXcomposite xinput libXrender pixman wayland-protocols x11-libs/cairo x11-libs/pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info
+sudo emerge -av gdb dev-util/ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libXfixes libX11 libXcomposite xinput libXrender pixman wayland-protocols x11-libs/cairo x11-libs/pango seatd libxkbcommon xcb-util-wm xwayland libinput libliftoff libdisplay-info
+sudo emerge -av x11-apps/xinput x11-libs/libxkbcommon
+make
+make -DNO_SYSTEMD=on
+nvim Makefile
+make
+mkdir -p build && cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -DNO_SYSTEMD:STRING=true -H./ -B./build -G Ninja
+mkdir -p build; cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -DNO_SYSTEMD:STRING=true -H./ -B./build -G Ninja
+mkdir build; cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -DNO_SYSTEMD:STRING=true -H./ -B./build -G Ninja
+ninja
+cmake --build ./build --config Release --target all -j16
+git submodules update --init
+git submodule update --init
+cd ..
+rm -r hyprland/
+git clone --recursive https://github.com/hyprwm/Hyprland
+cd Hyprland/
+ls
+nvim CMakeLists.txt
+mkdir build; cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -DNO_SYSTEMD:STRING=true -H./ -B./build -G Ninja
+cmake --build ./build --config Release --target all -j16
+nvim install.sh
+./install.sh
+nvim install.sh
+./install.sh
+git info
+git status
+git C
+git 
+git status
+git tag
+nvim install.sh
+./install.sh
+hyprload
+cd .local
+cd bin
+ls
+cd ..
+cd share/
+cd hyprload/
+./hyprload.sh
+ls
+ls
+cd ..
+ls
+cd ..
+ls
+cd src/
+ls
+make
+hyprctl version
+exit
+nvim .config/hypr/hyprland.conf
+$env.HOME/.local/share/hyprload/hyprload.sh
+./.local/share/hyprload/hyprload.sh
+nvim .config/hypr/hyprload.toml
+nohup /usr/bin/waybar&
+exit
+bash
+clear
+hyprload
+hyprload,update
+nvim .config/hypr/hyprland.conf
+./.local/share/hyprload/hyprload.sh
+nvim .config/hypr/hyprland.conf
+firefox 
+clear
+./loginautostart.sh
+clear
+sudo emerge --depclean --verbose hyprland
+chsh
+nvim .bashrc
+nvim .config/fish/config.fish
+nvim install.sh
