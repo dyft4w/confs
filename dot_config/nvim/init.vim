@@ -8,6 +8,7 @@ Plug 'EdenEast/nightfox.nvim'
 Plug 'glepnir/galaxyline.nvim' , { 'branch': 'main' }
 "Plug 'freddiehaddad/feline.nvim'
 "Plug 'nanozuki/tabby.nvim'
+Plug 'ellisonleao/gruvbox.nvim'
 Plug 'xiyaowong/transparent.nvim'
 call plug#end()
 " May need for vim (not neovim) since coc.nvim calculate byte offset by count
