@@ -15,7 +15,7 @@ call plug#end()
 " utf-8 byte sequence.
 set termguicolors
 " luafile ~/.config/nvim/lua/aaa.lua
-colorscheme carbonfox
+colorscheme gruvbox
 "luafile ~/.config/nvim/lua/ccc.lua
 "luafile ~/.config/nvim/lua/feline.conf.lua
 luafile ~/.config/nvim/lua/galaxyline.conf.lua
