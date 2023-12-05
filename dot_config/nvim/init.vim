@@ -7,7 +7,7 @@ Plug 'lervag/vimtex'
 Plug 'EdenEast/nightfox.nvim'
 Plug 'glepnir/galaxyline.nvim' , { 'branch': 'main' }
 "Plug 'freddiehaddad/feline.nvim'
-"Plug 'nanozuki/tabby.nvim'
+Plug 'nanozuki/tabby.nvim'
 Plug 'ellisonleao/gruvbox.nvim'
 Plug 'xiyaowong/transparent.nvim'
 call plug#end()
@@ -17,6 +17,7 @@ set termguicolors
 " luafile ~/.config/nvim/lua/aaa.lua
 colorscheme gruvbox
 "luafile ~/.config/nvim/lua/ccc.lua
+luafile ~/.config/nvim/lua/tabby.conf.lua
 "luafile ~/.config/nvim/lua/feline.conf.lua
 luafile ~/.config/nvim/lua/galaxyline.conf.lua
 luafile ~/.config/nvim/lua/amcli.lua
@@ -135,12 +136,13 @@ nmap <leader>klb :<C-u>AmcliBlock<CR>
 nmap <leader>kms :<C-u>AmcliSimp<CR>
 vmap <leader>kme :<C-u>AmcliEval<CR>
 nmap <leader>kme :v%<C-u>AmcliEval<CR>
-nmap <leader>qn :<C-u>tabnew<cr>
-nmap <leader>q<leader> :<C-u>tabnext<cr>
-nmap <leader>qm :<C-u>tabmove<cr>
-nmap <leader>qc :<C-u>tabclose<cr>
-nmap <leader>qo :<C-u>tabonly<cr>
-nmap <leader>qp :<C-u>tabprevious<cr>
+nmap <leader>tn :<C-u>tabnew<cr>
+nmap <leader>t<leader> :<C-u>tabnext<cr>
+nmap <leader>tm :<C-u>tabmove<cr>
+nmap <leader>tc :<C-u>tabclose<cr>
+nmap <leader>to :<C-u>tabonly<cr>
+nmap <leader>tp :<C-u>tabprevious<cr>
+nmap <leader>ns :<C-u>nohlsearch<cr>
 command Editconf file ~/.config/nvim/init.vim
 augroup mygroup
   autocmd!
