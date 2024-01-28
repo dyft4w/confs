@@ -9,7 +9,20 @@ Plug 'glepnir/galaxyline.nvim' , { 'branch': 'main' }
 "Plug 'freddiehaddad/feline.nvim'
 Plug 'nanozuki/tabby.nvim'
 Plug 'ellisonleao/gruvbox.nvim'
-Plug 'xiyaowong/transparent.nvim'
+"Plug 'xiyaowong/transparent.nvim'
+"Plug 'nvim-lua/plenary.nvim'
+"Plug 'hrsh7th/nvim-cmp'
+"Plug 'onsails/lspkind.nvim'
+Plug 'Exafunction/codeium.nvim', { 'branch': 'main' }
+Plug 'Exafunction/codeium.vim', { 'branch' : 'main' }
+"Plug 'neovim/nvim-lspconfig'
+"Plug 'hrsh7th/cmp-nvim-lsp'
+"Plug 'hrsh7th/cmp-buffer'
+"Plug 'hrsh7th/cmp-path'
+"Plug 'hrsh7th/cmp-cmdline'
+"Plug 'hrsh7th/nvim-cmp'
+"Plug 'L3MON4D3/LuaSnip'
+"Plug 'saadparwaiz1/cmp_luasnip',{'tag': 'master', 'do': 'make install_jsregexp'}
 call plug#end()
 " May need for vim (not neovim) since coc.nvim calculate byte offset by count
 " utf-8 byte sequence.
@@ -21,6 +34,7 @@ luafile ~/.config/nvim/lua/tabby.conf.lua
 "luafile ~/.config/nvim/lua/feline.conf.lua
 luafile ~/.config/nvim/lua/galaxyline.conf.lua
 luafile ~/.config/nvim/lua/amcli.lua
+"luafile ~/.config/nvim/lua/cmp.conf.lua
 let g:vimtex_view_method = 'zathura'
 let g:vimtex_compiler_method='latexmk'
 
@@ -68,8 +82,12 @@ no H 8<Down>
 no T 8<Up>
 no D <C-w><C-r>
 
+" codeium thingies
 
-
+imap <script><silent><nowait><expr> <C-i> codeium#Accept()
+imap <C-;>   <Cmd>call codeium#CycleCompletions(1)<CR>
+imap <C-,>   <Cmd>call codeium#CycleCompletions(-1)<CR>
+imap <C-x>   <Cmd>call codeium#Clear()<CR>
 
 
 
@@ -170,7 +188,7 @@ xmap <silent> <leader>r  <Plug>(coc-codeaction-refactor-selected)
 nmap <silent> <leader>r  <Plug>(coc-codeaction-refactor-selected)
 
 " Run the Code Lens action on the current line.
-nmap <leader>cl  <Plug>(coc-codelens-action)
+nmap <leader>gr  <Plug>(coc-codelens-action)
 
 " Map function and class text objects
 " NOTE: Requires 'textDocument.documentSymbol' support from the language server.

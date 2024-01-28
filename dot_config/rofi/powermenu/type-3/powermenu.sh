@@ -93,9 +93,9 @@ case ${chosen} in
 		loginctl lock-session
         ;;
     $suspend)
-	    	loginctl suspend
+	    	systemctl suspend
         ;;
     $logout)
-	    	loginctl logout
+	    	systemctl logout
         ;;
 esac
