@@ -1,4 +1,4 @@
 #!/bin/sh
-mkdir ~/.config/nushell
-ln -s $(realpath ./nushell/config.nu) ~/.config/nushell/
-ln -s $(realpath ./nushell/env.nu) ~/.config/nushell/
+cd `dirname $0`
+mkdir -p ~/.config/nvim/lua
+ln -s (realpath nvchad_custom) ~/.config/nvim/lua/custom
