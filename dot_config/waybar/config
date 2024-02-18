@@ -15,6 +15,12 @@
 	"network", 
     	"custom/left-arrow-light",
     	"custom/left-arrow-dark",
+  "backlight",
+      "custom/left-arrow-light",
+      "custom/left-arrow-dark",
+  "battery",
+      "custom/left-arrow-light",
+      "custom/left-arrow-dark",
 	"temperature", 
     	"custom/left-arrow-light",
     	"custom/left-arrow-dark",
@@ -135,7 +141,7 @@
         "format-icons": ["", "", ""]
     },
     "backlight": {
-        // "device": "acpi_video1",
+        "device": "acpi_video1",
         "format": "{percent}% {icon}",
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
@@ -179,6 +185,21 @@
         "escape": true,
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
-    }
+    },
+    "battery": {
+      "states": {
+        "good": 95,
+        "warning": 30,
+        "critical": 15
+      },
+      "format": "{icon}  {capacity}%",
+      "format-icons": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
 }
 
