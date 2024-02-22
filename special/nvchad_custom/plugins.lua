@@ -5,8 +5,11 @@ local plugins = {
 
   -- Override plugin definition options
   {
-  'Exafunction/codeium.vim',
-  event = 'BufEnter'
+    'lervag/vimtex'
+  },
+  {
+    'Exafunction/codeium.vim',
+    event = 'BufEnter'
   },
   {"Exafunction/codeium.nvim",
     dependencies = {

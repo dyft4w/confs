@@ -87,10 +87,10 @@ case ${chosen} in
 	    	loginctl poweroff
         ;;
     $reboot)
-		loginctl reboot
+		    loginctl reboot
         ;;
     $lock)
-		loginctl lock-session
+		    loginctl lock-session
         ;;
     $suspend)
 	    	systemctl suspend

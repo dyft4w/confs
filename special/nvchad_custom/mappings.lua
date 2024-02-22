@@ -12,10 +12,12 @@ M.general = {
       end,
       "formatting",
     },
-    ["<leader>t<leader>"] = {":<C-u>tabnext<cr>", ":tabnext", opts = { nowait = true} },
-    ["<leader>tn"] = {":<C-u>tabnew<cr>", ":tabnew", opts = { nowait = true} },
-    ["<leader>tc>"] = {":<C-u>tabclose<cr>", ":tabclose", opts = { nowait = true} },
-    ["<leader>tp"] = {":<C-u>tabprevious<cr>", ":tabprevious", opts = { nowait = true} },
+    ["<leader>tn"] = {
+      function()
+        require("nvchad.tabufline").tabuflineNew()
+      end,
+      "Goto next buffer",
+    },
     ["<leader>ns"] = {":<C-u>nohlsearch<cr>", ":nohlsearch", opts = { nowait = true} },
 
   },
