@@ -19,8 +19,6 @@ M.general = {
       "Goto next buffer",
     },
     ["<leader>ns"] = {":<C-u>nohlsearch<cr>", ":nohlsearch", opts = { nowait = true } },
-
-
   },
   v = {
     [">"] = { ">gv", "indent"},
