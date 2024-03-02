@@ -18,11 +18,20 @@ M.general = {
       end,
       "Goto next buffer",
     },
-    ["<leader>ns"] = {":<C-u>nohlsearch<cr>", ":nohlsearch", opts = { nowait = true} },
+    ["<leader>ns"] = {":<C-u>nohlsearch<cr>", ":nohlsearch", opts = { nowait = true } },
+
 
   },
   v = {
     [">"] = { ">gv", "indent"},
+  },
+  i = {
+    ["<C-a>"] = {
+    function()
+      return vim.fn['codeium#Accept']()
+    end,
+    "Codeium Accept",
+    opts = { nowait = true, silent = true, noremap = true, expr = true, script = true} },
   },
 }
 

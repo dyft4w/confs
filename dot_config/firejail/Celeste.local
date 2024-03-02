@@ -1,0 +1,5 @@
+include globals.local
+
+net none
+whitelist /home/dyft4w/Games/celeste-linux-1.4.0.0
+whitelist /home/dyft4w/.local/share/Celeste

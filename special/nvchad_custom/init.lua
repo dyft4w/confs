@@ -5,3 +5,8 @@
 --   pattern = "*",
 --   command = "tabdo wincmd =",
 -- })
+local o = vim.o
+o.expandtab = false
+o.noexpandtab = true
+o.tabstop = 4
+o.shiftwidth = 4
