@@ -104,7 +104,7 @@
   </Grab>
   <Jump>
     <Keyboard>
-      <Keys>Down</Keys>
+      <Keys>OemComma</Keys>
     </Keyboard>
     <Controller>
       <Buttons>A</Buttons>
@@ -113,7 +113,7 @@
   </Jump>
   <Dash>
     <Keyboard>
-      <Keys>Left</Keys>
+      <Keys>OemPeriod</Keys>
     </Keyboard>
     <Controller>
       <Buttons>X</Buttons>
@@ -122,7 +122,7 @@
   </Dash>
   <Talk>
     <Keyboard>
-      <Keys>Left</Keys>
+      <Keys>OemPeriod</Keys>
     </Keyboard>
     <Controller>
       <Buttons>B</Buttons>
@@ -138,7 +138,7 @@
   </Pause>
   <Confirm>
     <Keyboard>
-      <Keys>Left</Keys>
+      <Keys>OemComma</Keys>
     </Keyboard>
     <Controller>
       <Buttons>A</Buttons>
@@ -146,7 +146,7 @@
   </Confirm>
   <Cancel>
     <Keyboard>
-      <Keys>Down</Keys>
+      <Keys>OemPeriod</Keys>
     </Keyboard>
     <Controller>
       <Buttons>B</Buttons>
