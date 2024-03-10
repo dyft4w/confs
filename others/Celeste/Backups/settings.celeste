@@ -169,7 +169,7 @@
   </QuickRestart>
   <DemoDash>
     <Keyboard>
-      <Keys>Right</Keys>
+      <Keys>OemQuestion</Keys>
     </Keyboard>
     <Controller />
   </DemoDash>
