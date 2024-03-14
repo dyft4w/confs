@@ -5,7 +5,8 @@ local plugins = {
 
   -- Override plugin definition options
   {
-    'lervag/vimtex'
+    'lervag/vimtex',
+	ft={ 'tex' }
   },
   {
     'Exafunction/codeium.vim',
