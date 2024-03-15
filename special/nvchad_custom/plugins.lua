@@ -6,7 +6,12 @@ local plugins = {
   -- Override plugin definition options
   {
     'lervag/vimtex',
-	ft={ 'tex' }
+	ft={ 'tex' },
+	config = function()
+		vim.g.vimtex_view_method = 'zathura'
+		vim.g.vimtex_quickfix_mode = 0
+		vim.g.vimtex_compiler_method='latexmk'
+	end
   },
   {
     'Exafunction/codeium.vim',

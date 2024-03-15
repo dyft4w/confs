@@ -10,5 +10,4 @@ o.expandtab = false
 o.noexpandtab = true
 o.tabstop = 4
 o.shiftwidth = 4
-o.vimtex_view_method = 'zathura'
-o.vimtex_compiler_method='latexmk'
+

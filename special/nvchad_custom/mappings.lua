@@ -21,6 +21,7 @@ M.general = {
 			"formatting",
 			opts = { expr = true, script = true, noremap = true },
 		},
+		["<leader>ll"] = {":<C-u>VimtexCompile<cr>", "Continuous vimtex compile", opts = {noremap = true}}
 	},
 	v = {
 		[">"] = { ">gv", "indent" },
